@@ -1,0 +1,10 @@
+s = "The quick Brow Fox"
+a,b = 0,0
+for i in s:
+    if (i>='a'and i<='z'):          
+        a=a+1                 
+    if (i>='A'and i<='Z'):          
+        b=b+1   
+          
+print('No. of Upper case characters',b)
+print('No. of Lower case Characters',a)
